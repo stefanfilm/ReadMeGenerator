@@ -45,6 +45,7 @@ function generateMarkdown(data) {
   *  [Usage](#usage)
   ${renderLicenseLink (data.license)}
   *  [Contributions](#contributions)
+  *  [Tests](#tests)
   *  [Questions](#questions)
   
   ## Description
@@ -62,6 +63,9 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
   ## Contributions
   ${data.contributions}
+
+  ## Tests
+  ${data.tests}
 
   ## Questions
   You can contact me at ${data.email}

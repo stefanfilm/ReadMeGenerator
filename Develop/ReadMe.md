@@ -9,25 +9,29 @@
   *  [License](#license)
     
   *  [Contributions](#contributions)
+  *  [Tests](#tests)
   *  [Questions](#questions)
   
   ## Description
-  A professional README Generator.
+  A README Generator command line application.
 
   ## Deployed
-  It is accessible on the command line.
+  This is a command line application.
 
   ## Installation
-  You install it by following the README attached to this project.
+  Follow the README instructions included with the GitHub Repo.
 
   ## Usage
-  It is on the command line.
+  Use in the command line and follow README in GitHub Repo.
 
   ## License
   This project is licensed with the MIT license.
   
   ## Contributions
-  Self
+  Self. UC Berkeley Software Development Bootcamp
+
+  ## Tests
+  No
 
   ## Questions
   You can contact me at stefan.wanigatunga@gmail.com

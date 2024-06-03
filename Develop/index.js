@@ -63,7 +63,7 @@ inquirer.prompt(questions).then((readMeResults)=>
     {
 console.log(readMeResults);
 const markdown = generateMarkdown(readMeResults);
-writeToFile("ReadMe.md", markdown)
+writeToFile("README.md", markdown)
 })
 }
 
