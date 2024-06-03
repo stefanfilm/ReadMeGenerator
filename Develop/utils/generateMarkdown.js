@@ -38,14 +38,35 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-  ## table of contents 
-  *  [Questions](#questions)
+  ## Table of Contents 
+  *  [Description](#description)
+  *  [Deployed](#deployed)
+  *  [Installation](#installation)
+  *  [Usage](#usage)
   ${renderLicenseLink (data.license)}
+  *  [Contributions](#contributions)
+  *  [Questions](#questions)
+  
+  ## Description
+  ${data.description}
+
+  ## Deployed
+  ${data.deployed}
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ${renderLicenseSection(data.license)}
+  ## Contributions
+  ${data.contributions}
 
   ## Questions
   You can contact me at ${data.email}
-
-  ${renderLicenseSection(data.license)}
+  My GitHub Username is ${data.GitHubUsername}
+  
 `;
 }
 
